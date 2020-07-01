@@ -1,0 +1,21 @@
+extern int printf(string format)
+extern int scanf(string format)
+
+struct Point{
+    int x
+    int y
+}
+
+int func(struct Point p){
+    return p.x
+}
+
+int main(){
+    struct Point p
+    char[32] input
+    p.x =2020
+   p.y = 618
+    scanf("%s", input)
+    printf("%s = %d", input, func(p))
+    return 0
+}
