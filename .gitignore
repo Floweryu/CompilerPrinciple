@@ -1,0 +1,12 @@
+*.class
+*.jpg
+*.gif
+*.pdf
+*.classpath
+*.project
+*.jar
+.vscode
+bin
+images
+*计科1703*
+第六组-编译原理课程设计.zip
