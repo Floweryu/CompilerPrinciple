@@ -3,7 +3,12 @@ E->E+T|T
 T->T*F|F
 F->(E)|i
 
+S->(S)S|ϵ
+
 分析文法：
+S->(S)S
+S->ϵ
+
 E->EAT
 E->T
 A->+
